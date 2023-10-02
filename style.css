@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.componentsafter{
+    text-align: center
+}
+@tailwind utilities;
+@layer components{
+.btn{
+    @apply bg-green-700 text-yellow-200;
+}
+}
+
